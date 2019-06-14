@@ -1,0 +1,2 @@
+icemodding
+https://github.com/icemodding/i3/tree/master/scripts
