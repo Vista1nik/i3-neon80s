@@ -19,7 +19,7 @@ gaps inner 30
 # autostart
 exec --no-startup-id hsetroot -full ~/wall.png
 exec --no-startup-id xsettingsd &
-exec --no-startup-id compton -b
+#exec --no-startup-id picom -b --experimental-backends # This now gets called in .xinitrc, because I could not get it to work here.
 exec setxkbmap -layout us,ru
 exec setxkbmap -option 'grp:alt_shift_toggle'
 
